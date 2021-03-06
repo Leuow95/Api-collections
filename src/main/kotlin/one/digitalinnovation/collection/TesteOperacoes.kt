@@ -8,7 +8,7 @@ fun main() {
     }
 
     println("---------------")
-    println("Maior salario: ${salarios.max()}")
+    println("Maior salario: ${salarios.maxOrNull()}")
     println("Menor salario: ${salarios.minOrNull()}")
     println("Media salario: ${salarios.average()}")
 
